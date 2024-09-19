@@ -1,19 +1,5 @@
 # 🥇 PASILA (팔기 쉬운 라이브)
 
-![Group_74](/uploads/563ef4f565598ff8081e8a0f3b47c282/Group_74.png)
-
----
-
-## 목차
-
-1. [개요](#1-개요)
-2. [개발 환경](#2-개발-환경)
-3. [기능 소개](#3-기능-소개)
-4. [기술 소개](#4-기술-소개)
-5. [설계 문서](#5-설계-문서)
-6. [팀원 소개](#6-팀원-소개)
-
----
 
 ### 1. 개요
 
@@ -73,35 +59,7 @@ AI를 활용한 라이브 커머스 준비, 진행으로
 
 ---
 
-### 3. 기능 소개
-
-![숏핑상세페이지](/uploads/312c063c06ecb10021b362d779cdf0b0/숏핑상세페이지.gif)
-
-![챗봇생성](/uploads/47142ca177951f827f4b7ddc26afef9f/챗봇생성.gif)
-
-![상품구매완료](/uploads/337cdb09b62bbb57b5c36fd9f1bfa87b/상품구매완료.gif)
-
-![상품등록](/uploads/b051c908b2fe8f6c217082e03ae7a028/상품등록.gif)
-
-![숏핑제작후](/uploads/6b0f62937587a6380a4e6c8d8b3904fa/숏핑제작후.gif)
-
-![상품구매](/uploads/61ac7a2289a1f86835f0077c68df16b3/상품구매.gif)
-
-![라이브종료후숏핑](/uploads/19329d3ee0ccfe9be400fd2656b9717a/라이브종료후숏핑.gif)
-
-![라이브진행](/uploads/502f54d29d944898736fc79b16694297/라이브진행.gif)
-
-![대본생성](/uploads/36bada0efd1a6ec74405eab9f796f748/대본생성.gif)
-
-![라이브예약](/uploads/b58cba2eef80396a5d285fbff76a7e94/라이브예약.gif)
-
-![라이브상세페이지](/uploads/fb88f2daaaea1c2043957b7918429cb8/라이브상세페이지.gif)
-
-![구매내역](/uploads/e9093583740376001df70a8f9588e9fa/구매내역.gif)
-
-![챗봇답변](/uploads/f10afbba8883ca7f2841f2359ec2ad6d/챗봇답변.gif)
-
-### 4. 기술 소개
+### 3. 기술 소개
 
 1.  OpenAI API
 
@@ -124,23 +82,4 @@ AI를 활용한 라이브 커머스 준비, 진행으로
 
     영상 편집 및 음성 추출에 사용하였습니다.
 
-### 5. 설계 문서
 
-<b>ERD</b>
-
-![pasila-erd](/uploads/d0f983a22216a9d291bdf08b334476b8/pasila-erd.png)
-
-<b>System architecture</b>
-
-![pasila-architecture](/uploads/540406e1d64fac25010e1f9f91bdfd4b/pasila-architecture.png)
-
-### 6. 팀원 소개
-
-| 이름   | 역할             | 설명                                    |
-| ------ | ---------------- | --------------------------------------- |
-| 최지우 | 팀장 / Front-end | WebRTC를 이용한 라이브 진행 기능 개발   |
-| 박지원 | Front-end        | FFmpeg를 활용한 영상 편집 기능 개발     |
-| 유소연 | Back-end         | OpenAI API prompt를 활용한 기능 개발    |
-| 정유경 | Back-end         | SSE를 활용한 실시간 재고 확인 기능 개발 |
-| 전경향 | Back-end         | WebRTC를 이용한 라이브 진행 기능 개발   |
-| 최동헌 | Back-end         | Spring Security                         |
